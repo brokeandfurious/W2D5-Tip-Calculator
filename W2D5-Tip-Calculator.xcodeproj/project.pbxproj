@@ -13,6 +13,7 @@
 		9D0FA78F1FC6347C00C080AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0FA78E1FC6347C00C080AA /* Assets.xcassets */; };
 		9D0FA7921FC6347C00C080AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0FA7901FC6347C00C080AA /* LaunchScreen.storyboard */; };
 		9D0FA7951FC6347C00C080AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0FA7941FC6347C00C080AA /* main.m */; };
+		9D0FA79D1FC6354D00C080AA /* Bill.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0FA79C1FC6354D00C080AA /* Bill.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9D0FA7911FC6347C00C080AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D0FA7931FC6347C00C080AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D0FA7941FC6347C00C080AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D0FA79B1FC6354D00C080AA /* Bill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bill.h; sourceTree = "<group>"; };
+		9D0FA79C1FC6354D00C080AA /* Bill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bill.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				9D0FA7901FC6347C00C080AA /* LaunchScreen.storyboard */,
 				9D0FA7931FC6347C00C080AA /* Info.plist */,
 				9D0FA7941FC6347C00C080AA /* main.m */,
+				9D0FA79B1FC6354D00C080AA /* Bill.h */,
+				9D0FA79C1FC6354D00C080AA /* Bill.m */,
 			);
 			path = "W2D5-Tip-Calculator";
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0FA79D1FC6354D00C080AA /* Bill.m in Sources */,
 				9D0FA78A1FC6347C00C080AA /* ViewController.m in Sources */,
 				9D0FA7951FC6347C00C080AA /* main.m in Sources */,
 				9D0FA7871FC6347C00C080AA /* AppDelegate.m in Sources */,
